@@ -21,14 +21,14 @@ A pure CSS toggle switch for form input checkboxes
 
 ## Options
 
-| Option | Data Attribute |
+| Option | Class |
 | ------ | ------ |
-| Rounded | `data-style="rounded"`
-| No Text | `data-text="false"`
+| Rounded | `tgsw-rounded`
+| No Text | `tgsw-text-off`
 | Disabled | add the `disabled` attribute to the input tag
-| Sizes | `data-size="xl"`<br>`data-size="lg"`<br>medium (default)<br>`data-size="sm"`<br>`data-size="xs"`
-| Colors | `data-color="red"`<br>`data-color="orange"`<br>`data-color="yellow"`<br>`data-color="green"`<br>`data-color="blue"`<br>`data-color="purple"`<br>`data-color="gray"`
-| Labels | `data-label="left"`<br>label on right (default)<br>
+| Sizes | `tgsw-xl`<br>`tgsw-lg`<br>medium (default)<br>`tgsw-sm`<br>`tgsw-xs`
+| Colors | `tgsw-red`<br>`tgsw-orange`<br>`tgsw-yellow`<br>`tgsw-green`<br>`tgsw-blue`<br>`tgsw-purple`<br>`tgsw-gray`
+| Labels | `tgsw-label-left`<br>label on right (default)<br>
 
 ## Features
 * CSS only - no JavaScript!
