@@ -40,8 +40,8 @@ CORE STYLES BELOW - NO TOUCHY
 .toggle-switchy > input + .toggle:before {right:55%;}
 .toggle-switchy > input + .toggle:after {left:50%;}
 .toggle-switchy > input + .toggle + .label {margin-left:10px;}
-.toggle-switchy[data-label='left'] > input + .toggle {order:2;}
-.toggle-switchy[data-label='left'] > input + .toggle + .label {order:1; margin-left:0; margin-right:10px;}
+.toggle-switchy.tgsw-label-left > input + .toggle {order:2;}
+.toggle-switchy.tgsw-label-left > input + .toggle + .label {order:1; margin-left:0; margin-right:10px;}
 
 /* SHOW/HIDE */
 .toggle-switchy > input + .toggle:before {opacity:0;}
@@ -58,86 +58,86 @@ CORE STYLES ABOVE - NO TOUCHY
 ////////////////////////// */
 
 /* Size: Extra Large */
-.toggle-switchy[data-size='xl'] > input + .toggle							{width:85px; height:40px;}
-.toggle-switchy[data-size='xl'] > input + .toggle > .switch					{width:40px;}
-.toggle-switchy[data-size='xl'] > input + .toggle:before,
-.toggle-switchy[data-size='xl'] > input + .toggle:after						{font-size:1.2rem;}
-.toggle-switchy[data-size='xl'] > input:not(:checked) + .toggle > .switch	{right:calc(100% - 40px);}
+.toggle-switchy.tgsw-xl > input + .toggle							{width:85px; height:40px;}
+.toggle-switchy.tgsw-xl > input + .toggle > .switch					{width:40px;}
+.toggle-switchy.tgsw-xl > input + .toggle:before,
+.toggle-switchy.tgsw-xl > input + .toggle:after						{font-size:1.2rem;}
+.toggle-switchy.tgsw-xl > input:not(:checked) + .toggle > .switch	{right:calc(100% - 40px);}
 
 /* Size: Large */
-.toggle-switchy[data-size='lg'] > input + .toggle							{width:75px; height:35px;}
-.toggle-switchy[data-size='lg'] > input + .toggle > .switch					{width:35px;}
-.toggle-switchy[data-size='lg'] > input + .toggle:before,
-.toggle-switchy[data-size='lg'] > input + .toggle:after						{font-size:1rem;}
-.toggle-switchy[data-size='lg'] > input:not(:checked) + .toggle > .switch	{right:calc(100% - 35px);}
+.toggle-switchy.tgsw-lg > input + .toggle							{width:75px; height:35px;}
+.toggle-switchy.tgsw-lg > input + .toggle > .switch					{width:35px;}
+.toggle-switchy.tgsw-lg > input + .toggle:before,
+.toggle-switchy.tgsw-lg > input + .toggle:after						{font-size:1rem;}
+.toggle-switchy.tgsw-lg > input:not(:checked) + .toggle > .switch	{right:calc(100% - 35px);}
 
 /* Size: Default (Medium) */
-.toggle-switchy > input + .toggle											{width:65px; height:30px;}
-.toggle-switchy > input + .toggle	> .switch								{width:30px;}
+.toggle-switchy > input + .toggle									{width:65px; height:30px;}
+.toggle-switchy > input + .toggle	> .switch						{width:30px;}
 .toggle-switchy > input + .toggle:before,
-.toggle-switchy > input + .toggle:after										{font-size:0.8rem;}
-.toggle-switchy > input:not(:checked) + .toggle > .switch					{right:calc(100% - 30px);}
+.toggle-switchy > input + .toggle:after								{font-size:0.8rem;}
+.toggle-switchy > input:not(:checked) + .toggle > .switch			{right:calc(100% - 30px);}
 
 /* Size: Small */
-.toggle-switchy[data-size='sm'] > input + .toggle							{width:55px; height:25px;}
-.toggle-switchy[data-size='sm'] > input + .toggle > .switch					{width:25px;}
-.toggle-switchy[data-size='sm'] > input + .toggle:before,
-.toggle-switchy[data-size='sm'] > input + .toggle:after						{font-size:0.7rem;}
-.toggle-switchy[data-size='sm'] > input:not(:checked) + .toggle > .switch	{right:calc(100% - 25px);}
+.toggle-switchy.tgsw-sm > input + .toggle							{width:55px; height:25px;}
+.toggle-switchy.tgsw-sm > input + .toggle > .switch					{width:25px;}
+.toggle-switchy.tgsw-sm > input + .toggle:before,
+.toggle-switchy.tgsw-sm > input + .toggle:after						{font-size:0.7rem;}
+.toggle-switchy.tgsw-sm > input:not(:checked) + .toggle > .switch	{right:calc(100% - 25px);}
 
 /* Size: Extra Small */
-.toggle-switchy[data-size='xs'] > input + .toggle							{width:45px; height:20px;}
-.toggle-switchy[data-size='xs'] > input + .toggle > .switch					{width:20px;}
-.toggle-switchy[data-size='xs'] > input + .toggle:before,
-.toggle-switchy[data-size='xs'] > input + .toggle:after						{font-size:0.5rem;}
-.toggle-switchy[data-size='xs'] > input:not(:checked) + .toggle > .switch	{right:calc(100% - 20px);}
+.toggle-switchy.tgsw-xs > input + .toggle							{width:45px; height:20px;}
+.toggle-switchy.tgsw-xs > input + .toggle > .switch					{width:20px;}
+.toggle-switchy.tgsw-xs > input + .toggle:before,
+.toggle-switchy.tgsw-xs > input + .toggle:after						{font-size:0.5rem;}
+.toggle-switchy.tgsw-xs > input:not(:checked) + .toggle > .switch	{right:calc(100% - 20px);}
 
 /* Style: Rounded */
-.toggle-switchy[data-style='rounded'] > input + .toggle,
-.toggle-switchy[data-style='rounded'] > input + .toggle > .switch			{border-radius:50px;}
-.toggle-switchy[data-style='rounded'] > input + .toggle:before				{right:50%;}
-.toggle-switchy[data-style='rounded'] > input + .toggle:after				{left:50%;}
+.toggle-switchy.tgsw-rounded > input + .toggle,
+.toggle-switchy.tgsw-rounded > input + .toggle > .switch			{border-radius:50px;}
+.toggle-switchy.tgsw-rounded > input + .toggle:before				{right:50%;}
+.toggle-switchy.tgsw-rounded > input + .toggle:after				{left:50%;}
 
 /* Text: Off */
-.toggle-switchy[data-text='false'] > input + .toggle:before,
-.toggle-switchy[data-text='false'] > input + .toggle:after					{content:'';}
-.toggle-switchy[data-text='false'][data-size='xl'] > input + .toggle		{width:80px;}
-.toggle-switchy[data-text='false'][data-size='lg'] > input + .toggle		{width:70px;}
-.toggle-switchy[data-text='false'] > input + .toggle						{width:60px;}
-.toggle-switchy[data-text='false'][data-size='sm'] > input + .toggle		{width:50px;}
-.toggle-switchy[data-text='false'][data-size='xs'] > input + .toggle		{width:40px;}
+.toggle-switchy.tgsw-text-off > input + .toggle:before,
+.toggle-switchy.tgsw-text-off > input + .toggle:after				{content:'';}
+.toggle-switchy.tgsw-text-off.tgsw-xl > input + .toggle		        {width:80px;}
+.toggle-switchy.tgsw-text-off.tgsw-lg > input + .toggle		        {width:70px;}
+.toggle-switchy.tgsw-text-off > input + .toggle						{width:60px;}
+.toggle-switchy.tgsw-text-off.tgsw-sm > input + .toggle		        {width:50px;}
+.toggle-switchy.tgsw-text-off.tgsw-xs > input + .toggle		        {width:40px;}
 
 /* Color: Red */
-.toggle-switchy[data-color='red'] > input:checked + .toggle {background:#e74c3c;}
-.toggle-switchy[data-color='red'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='red'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#e74c3c;}
+.toggle-switchy.tgsw-red > input:checked + .toggle {background:#e74c3c;}
+.toggle-switchy.tgsw-red > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-red.tgsw-rounded > input:checked + .toggle > .switch {border-color:#e74c3c;}
 
 /* Color: Orange */
-.toggle-switchy[data-color='orange'] > input:checked + .toggle {background:#e67e22;}
-.toggle-switchy[data-color='orange'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='orange'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#e67e22;}
+.toggle-switchy.tgsw-orange > input:checked + .toggle {background:#e67e22;}
+.toggle-switchy.tgsw-orange > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-orange.tgsw-rounded > input:checked + .toggle > .switch {border-color:#e67e22;}
  
  /* Color: Yellow */
-.toggle-switchy[data-color='yellow'] > input:checked + .toggle {background:#f1c40f;}
-.toggle-switchy[data-color='yellow'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='yellow'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#f1c40f;}
+.toggle-switchy.tgsw-yellow > input:checked + .toggle {background:#f1c40f;}
+.toggle-switchy.tgsw-yellow > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-yellow.tgsw-rounded > input:checked + .toggle > .switch {border-color:#f1c40f;}
 
 /* Color: Green */
-.toggle-switchy[data-color='green'] > input:checked + .toggle {background:#2ecc71;}
-.toggle-switchy[data-color='green'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='green'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#2ecc71;}
+.toggle-switchy.tgsw-green > input:checked + .toggle {background:#2ecc71;}
+.toggle-switchy.tgsw-green > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-green.tgsw-rounded > input:checked + .toggle > .switch {border-color:#2ecc71;}
 
 /* Color: Blue */
-.toggle-switchy[data-color='blue'] > input:checked + .toggle {background:#3498db;}
-.toggle-switchy[data-color='blue'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='blue'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#3498db;}
+.toggle-switchy.tgsw-blue > input:checked + .toggle {background:#3498db;}
+.toggle-switchy.tgsw-blue > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-blue.tgsw-rounded > input:checked + .toggle > .switch {border-color:#3498db;}
 
 /* Color: Purple */
-.toggle-switchy[data-color='purple'] > input:checked + .toggle {background:#9b59b6;}
-.toggle-switchy[data-color='purple'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='purple'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#9b59b6;}
+.toggle-switchy.tgsw-purple > input:checked + .toggle {background:#9b59b6;}
+.toggle-switchy.tgsw-purple > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-purple.tgsw-rounded > input:checked + .toggle > .switch {border-color:#9b59b6;}
 
 /* Color: Gray */
-.toggle-switchy[data-color='gray'] > input:checked + .toggle {background:#555;}
-.toggle-switchy[data-color='gray'] > input:checked + .toggle > .switch,
-.toggle-switchy[data-color='gray'][data-style='rounded'] > input:checked + .toggle > .switch {border-color:#555;}
+.toggle-switchy.tgsw-gray > input:checked + .toggle {background:#555;}
+.toggle-switchy.tgsw-gray > input:checked + .toggle > .switch,
+.toggle-switchy.tgsw-gray.tgsw-rounded > input:checked + .toggle > .switch {border-color:#555;}
